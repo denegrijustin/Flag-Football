@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flag Football Play Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="title-row">
+        <div class="ball">🏈</div>
+        <div>
+          <h1>Flag Football Play Simulator</h1>
+          <p>7v7 animated youth play diagram tool</p>
+        </div>
+      </div>
+    </header>
+
+    <nav id="formationTabs" class="formation-tabs" aria-label="Formations"></nav>
+
+    <section class="play-selector">
+      <div class="play-group">
+        <div class="group-label">Running</div>
+        <div id="runningButtons" class="play-buttons"></div>
+      </div>
+      <div class="play-group">
+        <div class="group-label">Passing</div>
+        <div id="passingButtons" class="play-buttons"></div>
+      </div>
+    </section>
+
+    <section class="play-title-bar">
+      <div>
+        <div class="eyebrow">Selected Play</div>
+        <h2 id="playTitle">Base RB Left</h2>
+      </div>
+      <div class="chip-row">
+        <span id="playTypeChip" class="chip">RUNNING</span>
+        <span id="speedChip" class="chip alt">1x</span>
+      </div>
+    </section>
+
+    <section class="field-card">
+      <canvas id="fieldCanvas" width="680" height="480" aria-label="Animated flag football play diagram"></canvas>
+    </section>
+
+    <section class="controls-card">
+      <div class="controls-row">
+        <button id="motionBtn" class="primary">▶ Motion</button>
+        <button id="snapBtn" class="primary">▶ Snap</button>
+        <button id="pauseBtn">⏸ Pause</button>
+        <button id="replayBtn">↺ Replay</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+      <div class="controls-row speed-row">
+        <label for="speedSelect">Speed</label>
+        <select id="speedSelect">
+          <option value="0.5">0.5x</option>
+          <option value="1" selected>1x</option>
+          <option value="2">2x</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="call-card">
+      <div class="call-card-header">
+        <div class="eyebrow">Huddle Call</div>
+        <div id="callLabel" class="call-label"></div>
+      </div>
+      <div id="callTiles" class="call-tiles"></div>
+    </section>
+
+    <section class="assignments-card">
+      <button id="assignmentsToggle" class="assignments-toggle" aria-expanded="false">
+        Show Assignments
+      </button>
+      <div id="assignmentsPanel" class="assignments-panel hidden">
+        <div id="assignmentsList"></div>
+        <div class="tip-card">
+          <div class="tip-title">Coaching Tip</div>
+          <div id="coachingTip"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
