@@ -1,0 +1,12 @@
+{
+  "game_date": "",
+  "opponent": "",
+  "first_half_qb": null,
+  "second_half_qb": null,
+  "total_series": 6,
+  "offense_series": 3,
+  "defense_series": 3,
+  "all_series": [],
+  "lineup_is_stale": true,
+  "last_rating_update": null
+}

@@ -1,0 +1,11 @@
+name,offense_speed,offense_agility,offense_hands,offense_ball_handling,offense_route_running,offense_awareness,offense_confidence,offense_effort,defense_speed,defense_flag_pulling,defense_pursuit,defense_awareness,defense_positioning,defense_aggression,defense_reaction_time,defense_effort,offense_score,defense_score,overall_score,offense_rating,defense_rating,overall_rating,eligible_positions,is_first_half_qb,is_second_half_qb
+Emma Johnson,4.0,4.0,3.5,4.0,3.5,4.0,4.5,4.0,4.0,3.5,4.0,4.0,3.5,3.0,3.5,4.0,3.93,3.73,3.83,B,B,B,"",True,False
+Sophia Williams,3.5,4.0,4.0,3.5,4.0,3.5,3.0,4.0,3.5,4.0,3.5,3.5,4.0,3.5,4.0,4.0,3.73,3.78,3.75,B,B,B,"",False,False
+Olivia Brown,4.5,4.0,3.0,3.5,3.5,3.5,3.5,4.5,4.5,4.0,4.5,3.5,3.5,4.0,4.0,4.5,3.73,4.13,3.93,B,B,B,"",False,False
+Ava Davis,3.0,3.5,4.0,3.0,3.5,3.5,3.5,3.5,3.0,3.0,3.0,3.5,3.5,3.0,3.0,3.5,3.43,3.18,3.3,C,C,C,"",False,True
+Isabella Miller,4.0,3.5,3.5,3.5,4.0,4.0,4.0,4.0,4.0,3.5,3.5,4.0,3.5,3.0,3.5,4.0,3.78,3.63,3.7,B,B,B,"",False,False
+Mia Wilson,3.5,3.5,3.0,3.0,3.0,3.0,3.0,3.5,3.5,4.0,3.5,3.0,3.5,4.0,3.5,3.5,3.18,3.58,3.38,C,B,C,"",False,False
+Charlotte Moore,3.0,3.0,3.5,3.0,3.0,3.5,3.0,3.0,3.0,3.5,3.0,3.5,3.0,3.5,3.0,3.0,3.1,3.23,3.16,C,C,C,"",False,False
+Amelia Taylor,4.0,4.0,4.5,4.0,4.0,4.0,3.5,4.0,4.0,3.0,3.5,4.0,3.5,3.0,3.5,4.0,4.0,3.53,3.76,B,B,B,"",False,False
+Harper Anderson,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,B,B,B,"",False,False
+Evelyn Thomas,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,C,C,C,"",False,False
